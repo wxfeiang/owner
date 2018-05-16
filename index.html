@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>主页</title>
+
+    <link href="css/mui.min.css" rel="stylesheet"/>
+      <link rel="stylesheet" href="css/public.css">
+   <style>
+   	.foot-nav{
+   		height: 0.98rem;
+   		border: none;
+   	}
+   	.foot-nav .span2{
+   		font-size: 0.22rem
+   		
+   	}
+   	
+   	.indexmheader {
+   		background-image: linear-gradient(0deg, rgba(44, 45, 49, 0.9) 0%, rgba(16, 16, 19, 0.9) 100%);
+   		color: #FFF;
+   	}
+   	.indexmheader h1,.indexmheader a{
+   		color:#fff;
+   	}
+   </style>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav indexmheader">
+	    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	    <h1 class="mui-title">标题</h1>
+	</header>
+	
+	<nav class="mui-bar mui-bar-tab foot-nav" >
+	    <a class="mui-tab-item mui-active">
+	        <span class="mui-icon mui-icon-home"></span>
+	        <span class="mui-tab-label span2">首页</span>
+	    </a>
+	    <a class="mui-tab-item">
+	        <span class="mui-icon mui-icon-gear"></span>
+	        <span class="mui-tab-label span2">智能硬件</span>
+	    </a>
+	    <a class="mui-tab-item">
+	        <span class="mui-icon mui-icon-person"></span>
+	        <span class="mui-tab-label span2">个人中心</span>
+	    </a>
+	    
+	</nav>
+	
+	
+</body>
+<script src="js/mui.min.js"></script>
+ <script type="text/javascript" charset="utf-8">
+      mui.init({
+    subpages:[{
+      url:'index1.html',
+      id:'index1.html',
+      styles:{
+        top:'45px',//mui标题栏默认高度为45px；
+        bottom:'0px'//默认为0px，可不定义；
+      }
+    }]
+  });
+  
+ </script>
+
+</html>

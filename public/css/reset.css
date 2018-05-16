@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+	body{margin:0;font-size:14px;
+	  -webkit-user-select: none;
+
+	}
+	body *{
+		-webkit-user-select: none;
+		font-family: "Microsoft YaHei";
+
+	}
+
+	h1,h2,h3,h4,h5,h6{margin:0;font-weight:normal;font-size:14px;}
+	ul,ol{list-style:none;margin:0;padding:0;}
+	dl,dd,p{margin:0;}
+	a{  text-decoration:none;color:#333;
+		-webkit-tap-highlight-color:rgba(0,0,0,0)}
+	b,strong{font-weight:normal;}
+	em,i{font-style:normal;}
+	img{ vertical-align:middle;}
+    a:hover,.on{
+		color: #ff342e;
+	}
+	/**,
+	::before,
+	::after{
+		margin: 0;
+		padding:0;
+	    -webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}*/
+
+    .fl{
+		float:left;
+	}
+	.rl{
+	   float: right;
+	}
+	.clearfix{*zoom:1;}
+	.clearfix:after{content:""; clear:both; display:block;}
+
+    table{ border-spacing:0;border-collapse:collapse;}
+	th,td{font-weight:normal;text-align:left;vertical-align:top;padding:0;}
+	a, input,button{margin:0;padding:0;border:none;background:none;font-size:14px;outline:none;
+	 -webkit-appearance: none;
+		border-radius: 0;
+	}
+	textarea{ resize:none; overflow:auto;}
+
+	
+	html{font-size:100px;}
+	.warp{
+		width:100%;
+		max-width: 750px;
+		min-width: 320px;
+		margin: 0 auto;
+		background: #ffedd0;
+
+	}
+
+	@media screen and (min-width:320px) and (max-width:375px){
+		html{ font-size:44.44px;}
+	
+	}
+	@media screen and (min-width:376px) and (max-width:414px){  
+		
+		html{ font-size:52.08px;}
+	
+	}
+	@media screen and (min-width:415px) and (max-width:480px){  
+		
+		html{ font-size:57.5px;}
+	
+	}
+	@media screen and (min-width:481px) and (max-width:640px){  
+		
+		html{ font-size:66.66px;}
+	
+	}
+
+	

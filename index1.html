@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0"  maximum-scale="1" minimum-scale="1"/>
+	
+    <!-- jq_weui -->
+     <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="public/juweiui/lib/weui.min.css"/>
+    <link rel="stylesheet" href="public/juweiui/css/jquery-weui.css"/>
+    <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/index1.css">
+    
+    <script src="js/remScale.js"></script>
+
+
+    <style>
+    	
+    	 .swiper-container {
+        width: 100%;
+      } 
+
+      .swiper-container img {
+        display: block;
+        width: 100%;
+        height: 3rem ;
+      }
+	.sp-top{
+    	margin-top: 0;
+
+    	}
+    	.sp-top a{
+    		height: 0.88rem;
+    		border-bottom: 1px solid #e5e5e5;
+    		color:#333;
+    	}      
+    </style>
+
+</head>
+<body>
+<div class="warp">
+		
+<!-- 轮播图 -->
+
+<div class="swiper-container " data-space-between='10' data-pagination='.swiper-pagination' data-autoplay="1000">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="images/swiper-2.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="images/swiper-3.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="images/swiper-1.jpg" alt=""></div>
+  </div>
+</div>
+
+<!--  图片点击 -->
+<div style="overflow: hidden;">
+	<div class="bg-box">
+		<a href="#">
+			<img src="images/index01.png" alt="">
+			<h3>生活缴费</h3>
+
+		</a>
+	   
+		<a href="#">
+			<img src="images/index02.png" alt="">
+			<h3>通知公告</h3>
+
+			</a>   
+		<a href="#">
+			<img src="images/index03.png" alt="">
+			<h3>维修保障</h3>
+
+			</a>	
+		<a href="#">
+				<img src="images/index04.png" alt="">
+				<h3>家商城</h3>
+
+		</a>	
+
+
+		<a href="#">
+			<img src="images/index05.png" alt="">
+			<h3>物品出入</h3>
+
+		</a>	
+        <a href="#">
+			<img src="images/index06.png" alt="">
+			<h3>公共租赁</h3>
+
+		</a>
+		<a href="#">
+			<img src="images/index07.png" alt="">
+			<h3>跑腿</h3>
+
+		</a>	
+
+
+		<a href="#">
+			<img src="images/index08.png" alt="">
+			<h3>约车</h3>
+
+		</a>										
+	</div>
+
+
+</div>
+
+<!--  滚动通知公告 -->
+  
+  <p class="inform">
+  	这里是通知公告区域，显示的是最新的通知，可以关闭...
+    <span class="mui-icon mui-icon-closeempty fr"></span>
+  </p>
+
+<!-- chaxun -->
+
+ <div class="weui-cells sp-top">
+	  <a class="weui-cell weui-cell_access" href="javascript:;">
+	    <div class="weui-cell__bd">
+	      <p><span></span>账单查询</p>
+	    </div>
+	    <div class="weui-cell__ft">
+	    </div>
+	  </a>
+	  <a class="weui-cell weui-cell_access" href="community.html">
+	    <div class="weui-cell__bd">
+	      <p>社区邻里</p>
+	    </div>
+	    <div class="weui-cell__ft">
+	    </div>
+	  </a>
+</div>
+
+   <h3 class="fees-tit">
+       生活小贴士
+       </h3>
+
+    <!-- 图文列表 -->
+
+  <div class="in-list">
+  	 <a href="" class="list-a">
+  	 	<div class="a-titl">
+			 <h3>为什么总要你冬天多晒晒太阳？</h3>
+  	 		<p>系统管理员<span>10分钟前</span></p>  	 		
+  	 	</div>
+  	 	
+        <div class="fr list-img">
+        	<img src="images/swiper-1.jpg" alt="">
+        </div>
+  	 </a>
+
+	<a href="" class="list-a">
+  	 	<div class="a-titl">
+			 <h3>为什么总要你冬天多晒晒太阳？</h3>
+  	 		<p>系统管理员<span>10分钟前</span></p>  	 		
+  	 	</div>
+  	 	
+        <div class="fr list-img">
+        	<img src="images/swiper-1.jpg" alt="">
+        </div>
+  	 </a>     
+
+
+	<a href="" class="list-a">
+  	 	<div class="a-titl">
+			 <h3>为什么总要你冬天多晒晒太阳？</h3>
+  	 		<p>系统管理员<span>10分钟前</span></p>  	 		
+  	 	</div>
+  	 	
+        <div class="fr list-img">
+        	<img src="images/swiper-1.jpg" alt="">
+        </div>
+  	 </a>  	 
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+	
+
+
+
+
+<!-- body 最后 -->
+<script src="public/juweiui/lib/jquery-2.1.4.js"></script>
+<script src="public/juweiui/lib/fastclick.js"></script>
+
+
+
+
+<!-- 如果使用了某些拓展插件还需要额外的JS -->
+
+<script src="public/juweiui/js/jquery-weui.js"></script>
+<script src="public/juweiui/js/swiper.min.js"></script>
+<script>
+    $(".swiper-container").swiper({
+        loop: true,
+        autoplay: 3000
+      });
+
+	 
+</script>
+</body>
+</html>

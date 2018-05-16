@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>生活缴费</title>
+	 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0"  maximum-scale="1" minimum-scale="1"/>
+	   <!-- jq_weui -->
+     <link rel="stylesheet" href="public/juweiui/lib/weui.min.css"/>
+     <link rel="stylesheet" href="public/juweiui/css/jquery-weui.min.css"/>
+    <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/payment.css">
+    <script src="js/remScale.js"></script>
+    <style>
+    	
+    	.shouimg {
+    		height: 0.62rem;
+    	}
+    	.weui-grid__icon img {
+		    display: block;
+		     width: auto;
+		    height: 100%;
+		}
+		.weui-dialog__btn{
+			color: #2697eb;
+		}
+    </style>
+</head>
+<body>
+	<div class="warp">
+<!-- first -->
+     <h3 class="pub_title">
+    <a href="index.html" class="fl fla"></a>
+     	生活缴费
+     </h3>
+<!-- first end -->
+
+
+   <div class="weui-grids">
+	  <a href="" class="weui-grid js_grid">
+	    <div class="weui-grid__icon">
+	      <img src="images/live1.png" alt="水费">
+	    </div>
+	    <p class="weui-grid__label">
+	      水费
+	    </p>
+	  </a>
+
+	  <a href="" class="weui-grid js_grid">
+	    <div class="weui-grid__icon">
+	      <img src="images/live2.png" alt="电费">
+	    </div>
+	    <p class="weui-grid__label">
+	      电费
+	    </p>
+	  </a>
+	 <a href="" class="weui-grid js_grid">
+		    <div class="weui-grid__icon">
+		      <img src="images/live3.png" alt="物业费">
+		    </div>
+		    <p class="weui-grid__label">
+		      物业费
+		    </p>
+     </a>
+
+	 <a href="" class="weui-grid js_grid">
+		    <div class="weui-grid__icon">
+		      <img src="images/live4.png" alt="暖气费">
+		    </div>
+		    <p class="weui-grid__label">
+		      暖气费
+		    </p>
+	 </a>
+
+	 <a href="" class="weui-grid js_grid">
+		    <div class="weui-grid__icon">
+		      <img src="images/live5.png" alt="暖气费">
+		    </div>
+		    <p class="weui-grid__label">
+		     租金
+		    </p>
+	 </a>
+
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+	
+
+
+
+<!-- body 最后 -->
+<script src="public/juweiui/lib/jquery-2.1.4.js"></script>
+<script src="public/juweiui/lib/fastclick.js"></script>
+
+<script src="public/juweiui/js/jquery-weui.min.js"></script>
+<!-- 如果使用了某些拓展插件还需要额外的JS -->
+<script src="https://cdn.bootcss.com/jquery-weui/1.2.0/js/swiper.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery-weui/1.2.0/js/city-picker.min.js"></script>
+
+
+
+<script>
+	
+	$.confirm({
+		 
+		  text: '您还没有房产认证,认证房产后才能缴费',
+		  onOK: function () {
+		    //点击确认
+		  },
+		  onCancel: function () {
+
+		  }
+		});
+</script>
+
+</body>
+</html>

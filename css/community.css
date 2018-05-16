@@ -1,0 +1,66 @@
+.cmbox {
+  padding: 0.3rem 0.28rem 0.3rem 0.32rem;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden; }
+  .cmbox .topbox {
+    display: flex;
+    margin: 0 0 0.22rem 0; }
+    .cmbox .topbox .tophead {
+      margin-right: 0.2rem;
+      width: 0.8rem;
+      height: 0.8rem;
+      border-radius: 50%;
+      overflow: hidden; }
+      .cmbox .topbox .tophead img {
+        width: 0.8rem;
+        height: 0.8rem; }
+    .cmbox .topbox .topright {
+      padding: 0.1rem 0 0 0; }
+      .cmbox .topbox .topright h3 {
+        font: 0.26rem/0.38rem "Microsoft YaHei";
+        color: #333; }
+      .cmbox .topbox .topright p {
+        font: 0.22rem/0.3rem "Microsoft YaHei";
+        color: #999; }
+  .cmbox .actic {
+    font: 0.26rem/0.36rem "Microsoft YaHei";
+    color: #333; }
+  .cmbox .imgs {
+    margin: 0.2rem 0;
+    width: 7.5rem;
+    overflow: hidden; }
+    .cmbox .imgs img {
+      margin-right: 0.22rem;
+      width: 2.1rem;
+      hieght: 1.8rem; }
+  .cmbox .lick {
+    font: 0.26rem/0.32rem "Microsoft YaHei";
+    color: #808080; }
+    .cmbox .lick span {
+      margin-right: 0.4rem; }
+      .cmbox .lick span img {
+        vertical-align: top;
+        margin-right: 0.1rem;
+        width: 0.32rem;
+        height: 0.3rem; }
+  .cmbox .lickbg {
+    padding-left: 0.2rem;
+    background: #f3f6f6; }
+    .cmbox .lickbg .comlick {
+      padding: 0.42rem 0 0 0;
+      border-bottom: 1px solid #e5e5e5;
+      font: 0.26rem/0.6rem "Microsoft YaHei";
+      color: #808080; }
+      .cmbox .lickbg .comlick img {
+        width: 0.32rem;
+        height: 0.3rem; }
+    .cmbox .lickbg .licklist li {
+      font: 0.26rem/0.9rem "Microsoft YaHei";
+      color: #666; }
+      .cmbox .lickbg .licklist li span {
+        color: #333; }
+    .cmbox .lickbg .morebtn {
+      font: 0.26rem/0.48rem "Microsoft YaHei";
+      color: #2697eb; }
+
+/*# sourceMappingURL=community.css.map */

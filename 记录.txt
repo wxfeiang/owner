@@ -1,0 +1,9 @@
+ payment   确认缴费
+postmsg.html  发布动态
+ paysuss   支付成功
+community   社区邻里
+fees         缴费页面
+seporject    选择项目
+livingpay   生活缴费
+housepro    房产认证
+index       首页

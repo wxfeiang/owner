@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>房产认证</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0"  maximum-scale="1" minimum-scale="1"/>
+	
+    <!-- jq_weui -->
+    <link rel="stylesheet" href="public/juweiui/lib/weui.min.css"/>
+    <link rel="stylesheet" href="public/juweiui/css/jquery-weui.css"/>
+    <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/public.css">
+
+    <script src="js/remScale.js"></script>
+
+
+    <style>
+    	
+    	.msgtit{
+           font: 0.26rem/0.72rem "Microsoft YaHei";
+    	}
+
+
+		.weui-cells{
+			margin: 0;
+		}
+      .weui-input{
+      	text-align: right;
+      }
+      .weui-cell{
+      	 font: 0.34rem/0.88rem "Microsoft YaHei";
+      	 color: #000;
+
+      }
+      .left-put{
+      	text-align: left;
+      }
+      .btmg{
+      	margin-top: 0.40rem;
+      }
+    </style>
+
+</head>
+<body>
+<div class="warp">
+	
+	
+ <!-- first -->
+     <h3 class="pub_title">
+     	<a href="index.html" class="fl fla"></a>
+     	房产认证
+     </h3>
+<!-- first end -->
+       <h3 class="fees-tit">
+       	房产信息
+       </h3>
+
+      <div class="weui-cells weui-cells_form">
+      	
+       <div class="weui-cell">
+        <div class="weui-cell__hd"><label for="date" class="weui-label">项目信息</label></div>
+        <div class="weui-cell__bd">
+          <input class="weui-input" id="housemsg" type="text" value="" placeholder="请选择">
+        </div>
+      </div>
+
+    <div class="weui-cell">
+        <div class="weui-cell__hd"><label for="date" class="weui-label">楼栋</label></div>
+        <div class="weui-cell__bd">
+          <input class="weui-input" id="lou" type="text" value="" placeholder="请选择">
+        </div>
+      </div>       
+
+
+     
+
+
+
+<!--  业主 -->
+
+
+    <h3 class="fees-tit">
+       	业主信息
+       </h3>
+	 <div class="weui-cell">
+	    <div class="weui-cell__hd"><label class="weui-label">业主</label></div>
+	    <div class="weui-cell__bd">
+	      <input class="weui-input left-put" type="text"  placeholder="请输入业主信息">
+	    </div>
+	 </div>
+
+	 <div class="weui-cell">
+	     <div class="weui-cell__hd"><label class="weui-label">手机号</label></div>
+	     <div class="weui-cell__bd">
+	      <input class="weui-input  left-put" type="number" pattern="[0-9]*" placeholder="请输入手机号">
+	    </div>
+	 </div>
+	   
+
+
+
+
+
+   </div>
+
+    <p class="btu btmg">
+	   	 立即发布
+	   </p>   
+
+</div>
+	
+
+
+
+
+<!-- body 最后 -->
+<script src="public/juweiui/lib/jquery-2.1.4.js"></script>
+<script src="public/juweiui/lib/fastclick.js"></script>
+
+
+
+<!-- 如果使用了某些拓展插件还需要额外的JS -->
+<script>
+  $(function() {
+    FastClick.attach(document.body);
+  });
+</script>
+<script src="public/juweiui/js/jquery-weui.js"></script>
+<script>
+	 $("#housemsg").picker({
+       
+        cols: [
+          {
+            textAlign: 'center',
+            values: ['高新大厦', '天琴花环']
+          }
+        ],
+        onChange: function(p, v, dv) {
+          console.log(p, v, dv);
+        },
+        onClose: function(p, v, d) {
+          console.log("close");
+        }
+      });
+
+ $("#lou").picker({
+     
+        cols: [
+          {
+            textAlign: 'center',
+            values: ['高新大厦', '天琴花环']
+          }
+        ],
+        onChange: function(p, v, dv) {
+          console.log(p, v, dv);
+        },
+        onClose: function(p, v, d) {
+          console.log("close");
+        }
+      });	 
+</script>
+</body>
+</html>
