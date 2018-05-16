@@ -1,66 +1,104 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/community\.sass}line{font-family:\000032}}
 .cmbox {
   padding: 0.3rem 0.28rem 0.3rem 0.32rem;
   border-bottom: 1px solid #e5e5e5;
-  overflow: hidden; }
-  .cmbox .topbox {
-    display: flex;
-    margin: 0 0 0.22rem 0; }
-    .cmbox .topbox .tophead {
-      margin-right: 0.2rem;
-      width: 0.8rem;
-      height: 0.8rem;
-      border-radius: 50%;
-      overflow: hidden; }
-      .cmbox .topbox .tophead img {
-        width: 0.8rem;
-        height: 0.8rem; }
-    .cmbox .topbox .topright {
-      padding: 0.1rem 0 0 0; }
-      .cmbox .topbox .topright h3 {
-        font: 0.26rem/0.38rem "Microsoft YaHei";
-        color: #333; }
-      .cmbox .topbox .topright p {
-        font: 0.22rem/0.3rem "Microsoft YaHei";
-        color: #999; }
-  .cmbox .actic {
-    font: 0.26rem/0.36rem "Microsoft YaHei";
-    color: #333; }
-  .cmbox .imgs {
-    margin: 0.2rem 0;
-    width: 7.5rem;
-    overflow: hidden; }
-    .cmbox .imgs img {
-      margin-right: 0.22rem;
-      width: 2.1rem;
-      hieght: 1.8rem; }
-  .cmbox .lick {
-    font: 0.26rem/0.32rem "Microsoft YaHei";
-    color: #808080; }
-    .cmbox .lick span {
-      margin-right: 0.4rem; }
-      .cmbox .lick span img {
-        vertical-align: top;
-        margin-right: 0.1rem;
-        width: 0.32rem;
-        height: 0.3rem; }
-  .cmbox .lickbg {
-    padding-left: 0.2rem;
-    background: #f3f6f6; }
-    .cmbox .lickbg .comlick {
-      padding: 0.42rem 0 0 0;
-      border-bottom: 1px solid #e5e5e5;
-      font: 0.26rem/0.6rem "Microsoft YaHei";
-      color: #808080; }
-      .cmbox .lickbg .comlick img {
-        width: 0.32rem;
-        height: 0.3rem; }
-    .cmbox .lickbg .licklist li {
-      font: 0.26rem/0.9rem "Microsoft YaHei";
-      color: #666; }
-      .cmbox .lickbg .licklist li span {
-        color: #333; }
-    .cmbox .lickbg .morebtn {
-      font: 0.26rem/0.48rem "Microsoft YaHei";
-      color: #2697eb; }
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/community\.sass}line{font-family:\000036}}
+.cmbox .topbox {
+  display: flex;
+  margin: 0 0 0.22rem 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/community\.sass}line{font-family:\000039}}
+.cmbox .topbox .tophead {
+  margin-right: 0.2rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/community\.sass}line{font-family:\0000315}}
+.cmbox .topbox .tophead img {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/community\.sass}line{font-family:\0000318}}
+.cmbox .topbox .topright {
+  padding: 0.1rem 0 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/community\.sass}line{font-family:\0000320}}
+.cmbox .topbox .topright h3 {
+  font: 0.26rem/0.38rem "Microsoft YaHei";
+  color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/community\.sass}line{font-family:\0000323}}
+.cmbox .topbox .topright p {
+  font: 0.22rem/0.3rem "Microsoft YaHei";
+  color: #999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/community\.sass}line{font-family:\0000326}}
+.cmbox .actic {
+  font: 0.26rem/0.36rem "Microsoft YaHei";
+  color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/community\.sass}line{font-family:\0000329}}
+.cmbox .imgs {
+  margin: 0.2rem 0;
+  width: 7.5rem;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/community\.sass}line{font-family:\0000334}}
+.cmbox .imgs img {
+  margin-right: 0.22rem;
+  width: 2.1rem;
+  hieght: 1.8rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/community\.sass}line{font-family:\0000338}}
+.cmbox .lick {
+  font: 0.26rem/0.32rem "Microsoft YaHei";
+  color: #808080;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/community\.sass}line{font-family:\0000341}}
+.cmbox .lick span {
+  margin-right: 0.4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/community\.sass}line{font-family:\0000343}}
+.cmbox .lick span img {
+  vertical-align: top;
+  margin-right: 0.1rem;
+  width: 0.32rem;
+  height: 0.3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/community\.sass}line{font-family:\0000348}}
+.cmbox .lickbg {
+  padding-left: 0.2rem;
+  background: #f3f6f6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/community\.sass}line{font-family:\0000351}}
+.cmbox .lickbg .comlick {
+  padding: 0.42rem 0 0 0;
+  border-bottom: 1px solid #e5e5e5;
+  font: 0.26rem/0.6rem "Microsoft YaHei";
+  color: #808080;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/community\.sass}line{font-family:\0000356}}
+.cmbox .lickbg .comlick img {
+  width: 0.32rem;
+  height: 0.3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/community\.sass}line{font-family:\0000360}}
+.cmbox .lickbg .licklist li {
+  font: 0.26rem/0.9rem "Microsoft YaHei";
+  color: #666;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/community\.sass}line{font-family:\0000363}}
+.cmbox .lickbg .licklist li span {
+  color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/community\.sass}line{font-family:\0000365}}
+.cmbox .lickbg .morebtn {
+  font: 0.26rem/0.48rem "Microsoft YaHei";
+  color: #2697eb;
+}
 
 /*# sourceMappingURL=community.css.map */

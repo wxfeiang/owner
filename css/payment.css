@@ -1,32 +1,46 @@
 /* header */
 /*first End */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/payment\.sass}line{font-family:\000036}}
 .twowi {
   margin: 0.34rem 0 0 0;
-  padding: 0 0.28rem 0 0.21rem; }
-  .twowi .p-title {
-    margin: 0 0 0 0.22rem;
-    padding-left: 0.86rem;
-    font: 0.26rem/0.56rem "Microsoft YaHei";
-    color: #999;
-    background: url("../images/witer.jpg") no-repeat left center;
-    background-size: 0.43rem 0.56rem; }
-  .twowi .p-part {
-    box-sizing: border-box;
-    border-bottom: 1px solid #efeff4;
-    font: 0.48rem/1.14rem "Microsoft YaHei";
-    color: #333; }
-    .twowi .p-part span {
-      margin: 0 0.13rem;
-      font: 0.36rem/1.14rem "Microsoft YaHei"; }
+  padding: 0 0.28rem 0 0.21rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/payment\.sass}line{font-family:\000039}}
+.twowi .p-title {
+  margin: 0 0 0 0.22rem;
+  padding-left: 0.86rem;
+  font: 0.26rem/0.56rem "Microsoft YaHei";
+  color: #999;
+  background: url("../images/witer.jpg") no-repeat left center;
+  background-size: 0.43rem 0.56rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/payment\.sass}line{font-family:\0000316}}
+.twowi .p-part {
+  box-sizing: border-box;
+  border-bottom: 1px solid #efeff4;
+  font: 0.48rem/1.14rem "Microsoft YaHei";
+  color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/payment\.sass}line{font-family:\0000321}}
+.twowi .p-part span {
+  margin: 0 0.13rem;
+  font: 0.36rem/1.14rem "Microsoft YaHei";
+}
 
 /*two End */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/payment\.sass}line{font-family:\0000327}}
 .details {
   margin: 0.16rem 0 0.4rem 0;
-  padding: 0 0.28rem 0.22rem 0.33rem; }
-  .details li {
-    font: 0.26rem/0.54rem "Microsoft YaHei";
-    color: #999; }
-    .details li span {
-      color: #4d4d4d; }
+  padding: 0 0.28rem 0.22rem 0.33rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/payment\.sass}line{font-family:\0000330}}
+.details li {
+  font: 0.26rem/0.54rem "Microsoft YaHei";
+  color: #999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/payment\.sass}line{font-family:\0000333}}
+.details li span {
+  color: #4d4d4d;
+}
 
 /*# sourceMappingURL=payment.css.map */

@@ -71,7 +71,7 @@
         </div>
       </div>       
 
-
+   </div>
      
 
 
@@ -101,7 +101,7 @@
 
 
 
-   </div>
+
 
     <p class="btu btmg">
 	   	 立即发布
@@ -120,11 +120,7 @@
 
 
 <!-- 如果使用了某些拓展插件还需要额外的JS -->
-<script>
-  $(function() {
-    FastClick.attach(document.body);
-  });
-</script>
+
 <script src="public/juweiui/js/jquery-weui.js"></script>
 <script>
 	 $("#housemsg").picker({
@@ -136,10 +132,10 @@
           }
         ],
         onChange: function(p, v, dv) {
-          console.log(p, v, dv);
+         
         },
         onClose: function(p, v, d) {
-          console.log("close");
+         
         }
       });
 
@@ -152,12 +148,13 @@
           }
         ],
         onChange: function(p, v, dv) {
-          console.log(p, v, dv);
+         
         },
         onClose: function(p, v, d) {
-          console.log("close");
+         
         }
-      });	 
+      });	
+      alert(1)
 </script>
 </body>
 </html>
