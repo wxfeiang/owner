@@ -48,13 +48,13 @@
 <div>
 	 <div class="mui-input-row mui-checkbox mui-left pay-lab">
 		  <label>2017.1.1-2017.1.31 <span class="fr">1,285.20</span></label>
-		  <input name="checkbox1" value="Item 1" type="checkbox">
+		  <input name="checkbox1" value="Item 1" type="checkbox" class="cheched">
 		  
 	</div>
 
 	<div class="mui-input-row mui-checkbox mui-left pay-lab">
 			  <label>2017.1.1-2017.1.31 <span class="fr">1,285.20</span></label>
-			  <input name="checkbox1" value="Item 1" type="checkbox">
+			  <input name="checkbox1" value="Item 1" type="checkbox" class="cheched">
 			  
 		</div>
 </div>
@@ -67,7 +67,7 @@
      	<div class="f-left">
      		<div class="mui-input-row mui-checkbox mui-left">
 			  <label class="paylad">全选 </label>
-			  <input name="checkbox1" value="Item 1" type="checkbox" class="cinput">
+			  <input name="checkbox1" value="Item 1" type="checkbox" id="ckAll" class="cinput">
 			  
 			</div>
      	</div>
@@ -95,5 +95,34 @@
 <!-- 如果使用了某些拓展插件还需要额外的JS -->
 <script src="https://cdn.bootcss.com/jquery-weui/1.2.0/js/swiper.min.js"></script>
 <script src="https://cdn.bootcss.com/jquery-weui/1.2.0/js/city-picker.min.js"></script>
+<script>
+	　　　　　//给所有 .box input 元素添加 checked = ckAll 当前的状态；
+　　　　　　　//prop('checked',value) ,第一个值获取属性，第二个值：设置属性值。prop只有一个参数时，表示获取元素属性。
+　　　 $('#ckAll').click(function(){
+　　　　　　　　　　 $('.cheched').prop('checked',$(this).prop('checked'));
+     });
+	  $('.cheched').click(function(){
+	  //each 便利每一个元素，让其执行该函数
+		  $('.cheched').each(function(){
+			   if(!$(this).prop('checked')){
+			   $('#ckAll').prop('checked',false);
+			   //有一个不满足就 跳出该循环，避免执行下面
+			   return false;
+			   }else{
+			   $('#ckAll').prop('checked',true);
+			   }
+		  })
+  })
+	
+	
+	
+	
+	
+	
+</script>
+
+
+
+
 </body>
 </html>

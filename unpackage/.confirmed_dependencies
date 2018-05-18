@@ -1,0 +1,27 @@
+{
+	"index.html": {
+		"resources": [
+			"index1.html"
+		],
+		"refer": [
+			"index1.html"
+		]
+	},
+	"community.html": {
+		"refer": [
+			"index.html",
+			"postmsg.html",
+			"index1.html"
+		]
+	},
+	"index1.html": {
+		"refer": [
+			"community.html"
+		]
+	},
+	"postmsg.html": {
+		"refer": [
+			"index.html"
+		]
+	}
+}
