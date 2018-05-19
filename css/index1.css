@@ -1,26 +1,23 @@
 @charset "UTF-8";
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\000031}}
 .bg-box {
-  padding: 0.38rem 0.4rem 0;
-  width: 10rem;
-  overflow: hidden;
   margin-bottom: 0.3rem;
+  width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\000034}}
 .bg-box a {
   display: inline-block;
-  margin-right: 0.7rem;
-  width: 1.08rem;
+  width: 24%;
+  padding: 0.2rem 0 0 0;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\000039}}
 .bg-box a img {
-  display: block;
   margin: 0 auto;
   width: 0.69rem;
   height: 0.68rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\0000314}}
 .bg-box a h3 {
   margin-bottom: 0.18rem;
   font: 0.25rem/0.6rem "YaHei";
@@ -28,7 +25,7 @@
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\0000319}}
 .inform {
   padding: 0 0.3rem;
   font: 0.24rem/0.7rem "YaHei";
@@ -37,41 +34,41 @@
 }
 
 /* 图文列表 */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\0000328}}
 .in-list {
   padding: 0 0.3rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\0000330}}
 .in-list .list-a {
   display: flex;
   padding: 0.42rem 0 0.25rem;
   border-bottom: 1px solid #e5e5e5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\0000334}}
 .in-list .list-a .a-titl {
   width: 3.74rem;
   margin-right: 0.9rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\0000337}}
 .in-list .list-a .a-titl h3 {
   font: 0.3rem/0.42rem "YaHei";
   color: #333;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\0000340}}
 .in-list .list-a .a-titl p {
   font: 0.22rem/0.7rem "YaHei";
   color: #999;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\0000343}}
 .in-list .list-a .a-titl p span {
   margin-left: 0.18rem;
   font-size: 0.2rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\0000347}}
 .in-list .list-a .list-img {
   width: 2.28rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/owner\/css\/index1\.sass}line{font-family:\0000349}}
 .in-list .list-a .list-img img {
   width: 2.3rem;
   height: 1.5rem;
