@@ -8,29 +8,39 @@
     <link href="css/reset.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/community.css">
+    
+    <link rel="stylesheet prefetch" href="public/PhotoSwipe-4.1.2/dist/photoswipe.css">
+    <link rel="stylesheet prefetch" href="public/PhotoSwipe-4.1.2/dist/default-skin/default-skin.css">
     <script src="js/remScale.js"></script>
+    <style>
+    	figure{
+    		float: left;
+    		margin: 0 !important;
+    	}
+    </style>
 </head>
 <body>
 	<div class="warp">
 
 	<!-- first -->
 	     <h3 class="clearfix pub_title">
-	     	<a href="index.html" class="fl fla"></a>
+	     	<a href="index1.html" class="fl fla"></a>
 	     	<span class="titl">社区邻里</span>
 	     	<a href="postmsg.html" class=" fr postmsg">发布动态</a>
 	     </h3>
 	<!-- first end -->
        
-  
-     
-	  <div class="cmbox">
+  <div class="showbox">
+  	
+  	<!-- 1-->
+  	<div class="cmbox">
 
 	  	  <div class="topbox">
 	  	  	 <div class="tophead">
-	  	  	 	<img src="images/pay-suss.png" alt="">
+	  	  	 	<img src="images/swiper-1.jpg" alt="">
 	  	  	 </div>
 	  	  	 <div class="topright">
-	  	  	 	<h3>这是昵称</h3>
+	  	  	 	<h3>昵称</h3>
 	  	  	 	<p>2018-12-12</p>
 	  	  	 </div>
 	  	  </div>
@@ -40,13 +50,34 @@
 	          </p>
 	         
 	          <div class="imgs">
-	          	<img src="images/swiper-1.jpg" alt="">
-	          	<img src="images/swiper-1.jpg" alt="">
-	          	<img src="images/swiper-1.jpg" alt="">
+	          	  <div class="my-gallery clearfix" data-pswp-uid="1">
+		          	 <figure>
+			            <div class="img-dv">
+			            	<a href="images/swiper-1.jpg" data-size="1920x1080">
+			            		<img src="images/swiper-1.jpg" alt="">
+			            	</a>
+			            </div>
+			        </figure>
+			         <figure>
+			            <div class="img-dv">
+			            	<a href="images/swiper-1.jpg" data-size="1920x1080">
+			            		<img src="images/swiper-1.jpg" alt="">
+			            	</a>
+			            </div>
+			        </figure>
+			         <figure>
+			            <div class="img-dv">
+			            	<a href="images/swiper-1.jpg" data-size="1920x1080">
+			            		<img src="images/swiper-1.jpg" alt="">
+			            	</a>
+			            </div>
+			        </figure>
+	          	  </div>
+	          	 
 	          </div>
 	       <!-- 点赞部分 -->
 	         <div class="lick">
-	         	 <span>
+	         	 <span class="lickspan">
 	         	 	<img src="images/stat1.png" alt="" >
 	                 赞
 	         	 </span>
@@ -77,71 +108,187 @@
 	         </div>
 	         
 	  </div> 
-
-	   <div class="cmbox">
-
-		  	  <div class="topbox">
-		  	  	 <div class="tophead">
-		  	  	 	<img src="images/pay-suss.png" alt="">
-		  	  	 </div>
-		  	  	 <div class="topright">
-		  	  	 	<h3>这是昵称</h3>
-		  	  	 	<p>2018-12-12</p>
-		  	  	 </div>
-		  	  </div>
-	          
-		          <p class="actic">
-		          	站酷（ZCOOL）,中国人气设计师互动平台，2006年8月创立于北京。深耕设计领域十年，站酷聚集了500万+优秀设计师、摄影师、插画师、艺术家、创意人，每日会员发布原创作品20000幅，产生互动交流200000次，覆盖中国300+城市，在设计创意群体中具有强大的影响力与号召力
-		          </p>
-		         
-		          <div class="imgs">
-		          	<img src="images/pay-suss.png" alt="">
-		          	<img src="images/pay-suss.png" alt="">
-		          	<img src="images/pay-suss.png" alt="">
-		          </div>
-		       <!-- 点赞部分 -->
-		         <div class="lick">
-		         	 <span>
-		         	 	<img src="images/stat1.png" alt="" >
-		                 暂
-		         	 </span>
-					<span>
-		         	 	<img src="images/start3.png" alt="" >
-		                 评论
-		         	 </span>             
-
-		         </div>
-
-		         <!--  评论列表部分 -->
-		         <div class="lickbg">
-					 <div class="comlick">
-			          	<img src="images/stat2.png" alt="">
-			          	 7000人觉的很赞
-			         </div>
-			          <ul class="licklist">
-			          	<li><span>马化腾: </span> 举觉得很赞</li>
-			          	<li><span>马化腾: </span> 举觉得很赞</li>
-			          	<li><span>马化腾: </span> 举觉得很赞</li>
-			          	<li><span>马化腾: </span> 举觉得很赞</li>
-			          	<li><span>马化腾: </span> 举觉得很赞</li>
-			          </ul>
-			           <p class="morebtn">
-			           	  查看更多的评论
-			           </p>
-			         	
-		         </div>
-		         
-		</div>       
 	  
+	  <!--2-->
+  	   <div class="cmbox">
+
+	  	  <div class="topbox">
+	  	  	 <div class="tophead">
+	  	  	 	<img src="images/swiper-1.jpg" alt="">
+	  	  	 </div>
+	  	  	 <div class="topright">
+	  	  	 	<h3>昵称</h3>
+	  	  	 	<p>2018-12-12</p>
+	  	  	 </div>
+	  	  </div>
+          
+	          <p class="actic">
+	          	站酷（ZCOOL）,中国人气设计师互动平台，2006年8月创立于北京。深耕设计领域十年，站酷聚集了500万+优秀设计师、摄影师、插画师、艺术家、创意人，每日会员发布原创作品20000幅，产生互动交流200000次，覆盖中国300+城市，在设计创意群体中具有强大的影响力与号召力
+	          </p>
+	         
+	          <div class="imgs">
+	          	  <div class="my-gallery clearfix" data-pswp-uid="1">
+		          	 <figure>
+			            <div class="img-dv">
+			            	<a href="images/swiper-1.jpg" data-size="1920x1080">
+			            		<img src="images/swiper-1.jpg" alt="">
+			            	</a>
+			            </div>
+			        </figure>
+			         <figure>
+			            <div class="img-dv">
+			            	<a href="images/swiper-1.jpg" data-size="1920x1080">
+			            		<img src="images/swiper-1.jpg" alt="">
+			            	</a>
+			            </div>
+			        </figure>
+			         <figure>
+			            <div class="img-dv">
+			            	<a href="images/swiper-1.jpg" data-size="1920x1080">
+			            		<img src="images/swiper-1.jpg" alt="">
+			            	</a>
+			            </div>
+			        </figure>
+	          	  </div>
+	          	 
+	          </div>
+	       <!-- 点赞部分 -->
+	         <div class="lick">
+	         	 <span class="lickspan">
+	         	 	<img src="images/stat1.png" alt="" >
+	                 赞
+	         	 </span>
+				<span>
+	         	 	<img src="images/start3.png" alt="" >
+	                 评论
+	         	 </span>             
+
+	         </div>
+
+	         <!--  评论列表部分 -->
+	         <div class="lickbg">
+				 <div class="comlick">
+		          	<img src="images/stat1.png" alt="">
+		          	 7000人觉的很赞
+		         </div>
+		          <ul class="licklist">
+		          	<li><span>马化腾: </span> 举觉得很赞</li>
+		          	<li><span>马化腾: </span> 举觉得很赞</li>
+		          	<li><span>马化腾: </span> 举觉得很赞</li>
+		          	<li><span>马化腾: </span> 举觉得很赞</li>
+		          	<li><span>马化腾: </span> 举觉得很赞</li>
+		          </ul>
+		           <p class="morebtn">
+		           	  查看更多的评论
+		           </p>
+		         	
+	         </div>
+	         
+	  </div> 
+  	
+  </div>
+       
+	    
 
 
 
 	</div>
 	
+	
+	
+<!--图片显示容器-->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div>
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                    <!--<button class="pswp__button pswp__button&#45;&#45;share" title="Share"></button>-->
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+<script src="public/juweiui/lib/jquery-2.1.4.js"></script>
+<script src="public/juweiui/lib/fastclick.js"></script>
+<!-- 如果使用了某些拓展插件还需要额外的JS -->
+<script src="public/juweiui/js/jquery-weui.js"></script>
+<script src="public/juweiui/js/swiper.min.js"></script>
+<script src="public/PhotoSwipe-4.1.2/dist/photoswipe.js"></script>
+<script src="public/PhotoSwipe-4.1.2/dist/photoswipe-ui-default.min.js"></script>
+<script src="public/PhotoSwipe-4.1.2/dist/phdiy.js"></script>
 
+<script>
+	 // 点赞部分
+	$(".lickspan").each(function(){
+		var onff = true;
+		$(this).click(function(){
+			if(onff){
+			  $(this).find("img")[0].src="images/stat2.png";
+			  alert("点赞成功")
+			  onff = false;
+			}else{
+		      $(this).find("img")[0].src="images/stat1.png";
+		      alert("取消点赞")
+		      onff = true;
+			}
+		
+		})
+	})
 
-
-
-
+	
+	$(".morebtn").each(function(){
+		var onff = true;
+		$(this).click(function(){
+			if(onff){	
+				var json1 = {
+					"height": "auto"
+					
+				}
+				$(this).html("收起").siblings('.licklist').css(json1);			
+				onff = false;	
+			}else{
+				var json2 ={
+					"height": "1.8rem",
+					"overflow": "hidden"
+				}
+				$(this).html("查看更多评论").siblings('.licklist').css(json2)
+				onff = true ;
+			}
+				
+		})
+		
+	})
+	
+	
+	
+</script>
 </body>
 </html>

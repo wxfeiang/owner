@@ -125,5 +125,120 @@
 				}
 			}
 		}
+	},
+	"dependencies": {
+		"pages": {
+			"index.html": {
+				"resources": [
+					"index1.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"community.html": {
+				"resources": [],
+				"refer": [
+					"index.html",
+					"postmsg.html",
+					"index1.html"
+				],
+				"priority": 0
+			},
+			"index1.html": {
+				"resources": [],
+				"refer": [
+					"community.html"
+				],
+				"priority": 0
+			},
+			"postmsg.html": {
+				"resources": [],
+				"refer": [
+					"index.html"
+				],
+				"priority": 0
+			}
+		},
+		"idle": {
+			"resources": [
+				"css/payment.css",
+				"images/live5.png",
+				"public/juweiui/js/swiper.js",
+				"public/juweiui/js/city-picker.min.js",
+				"js/remScale.js",
+				"css/index1.css",
+				"public/juweiui/lib/zepto.js",
+				"css/public.css",
+				"payment.html",
+				"images/index06.png",
+				"public/juweiui/js/jquery-weui.min.js",
+				"images/live1.png",
+				"seporject.html",
+				"css/community.sass",
+				"images/pub_06.jpg",
+				"css/postmsg.sass",
+				"css/iconfont.css",
+				"public/juweiui/js/swiper.min.js",
+				"css/postmsg.css.map",
+				"public/juweiui/js/city-picker.js",
+				"fonts/iconfont.ttf",
+				"js/mui.js",
+				"public/juweiui/lib/fastclick.js",
+				"public/juweiui/css/jquery-weui.css",
+				"css/paysuss.css.map",
+				"images/index03.png",
+				"public/juweiui/css/jquery-weui.min.css",
+				"images/swiper-2.jpg",
+				"fonts/mui.ttf",
+				"images/g-back.jpg",
+				"images/live3.png",
+				"css/mui.css",
+				"images/pay-suss.png",
+				"images/index08.png",
+				"css/fees.css",
+				"记录.txt",
+				"css/public.css.map",
+				"housepro.html",
+				"images/index02.png",
+				"livingpay .html",
+				"css/community.css",
+				"css/postmsg.css",
+				"css/fees.css.map",
+				"public/juweiui/lib/jquery-2.1.4.js",
+				"images/pub_05.jpg",
+				"images/live4.png",
+				"images/index07.png",
+				"css/community.css.map",
+				"css/payment.sass",
+				"images/index04.png",
+				"images/feesbg.jpg",
+				"public/juweiui/lib/weui.min.css",
+				"js/mui.min.js",
+				"images/index01.png",
+				"css/fees.sass",
+				"public/css/reset.css",
+				"css/payment.css.map",
+				"images/swiper-3.jpg",
+				"images/b-back.jpg",
+				"css/public.sass",
+				"images/swiper-1.jpg",
+				"css/index1.css.map",
+				"images/start3.png",
+				"css/paysuss.sass",
+				"images/stat2.png",
+				"public/juweiui/lib/weui.css",
+				"css/index1.sass",
+				"images/stat1.png",
+				"public/juweiui/js/jquery-weui.js",
+				"images/index05.png",
+				"paysucss.html",
+				"css/mui.min.css",
+				"images/witer.jpg",
+				"css/paysuss.css",
+				"images/live2.png",
+				"fees.html",
+				"css/reset.css"
+			]
+		}
 	}
 }

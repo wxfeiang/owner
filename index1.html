@@ -4,20 +4,20 @@
 	<meta charset="UTF-8">
 	<title>首页</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0"  maximum-scale="1" minimum-scale="1"/>
-	
-    <!-- jq_weui -->
-     <link href="css/mui.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="public/juweiui/lib/weui.min.css"/>
-    <link rel="stylesheet" href="public/juweiui/css/jquery-weui.css"/>
+	<link href="css/mui.min.css" rel="stylesheet"/>
     <link href="css/reset.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="css/public.css">
-    <link rel="stylesheet" href="css/index1.css">
+     <link rel="stylesheet" href="css/index1.css" />
     <link rel="stylesheet" href="css/iconfont.css" />
+    <link rel="stylesheet" href="public/juweiui/lib/weui.min.css"/>
+    <link rel="stylesheet" href="public/juweiui/css/jquery-weui.css"/>
     <script src="js/remScale.js"></script>
 
 
     <style>
-    	
+    	body,html{
+    		background: #fff;
+    	}
     	 .swiper-container {
         width: 100%;
       } 
@@ -44,6 +44,10 @@
     		margin-right: 0.10rem;
     		color: #ff9148;
     	}
+    	.p-span0{
+    		margin-top: 8px;
+    	}
+    	
     </style>
 
 </head>
@@ -115,11 +119,11 @@
 
 <!--  滚动通知公告 -->
   
-  <p class="inform">
-  	<span class="iconfont icon-laba"></span>
-  	这里是通知公告区域，显示的是最新的通知，可以关闭...
-    <span class="mui-icon mui-icon-closeempty fr"></span>
-  </p>
+  <div class="inform">
+  	<span class="iconfont icon-laba p-span01"></span>
+  	<span id="inerspan"></span>
+    <span class="mui-icon mui-icon-closeempty fr p-span0"></span>
+  </div>
 
 <!-- chaxun -->
 
@@ -147,7 +151,7 @@
     <!-- 图文列表 -->
 
   <div class="in-list">
-  	 <a href="" class="list-a">
+  	 <a href="index1.html" class="list-a">
   	 	<div class="a-titl">
 			 <h3>为什么总要你冬天多晒晒太阳？</h3>
   	 		<p>系统管理员<span>10分钟前</span></p>  	 		
@@ -217,9 +221,29 @@
 <script>
     $(".swiper-container").swiper({
         loop: true,
-        autoplay: 3000
+        autoplay: 2000
       });
 
+	 $(".p-span0").click(function(){	 	
+	 	$(".inform").hide(); 	
+	 }); 
+	//var timer = setInterval(auto,1000);
+	 
+	 function auto(){
+	 	 str='这里是通知公告区域，显示的是最新的通知，可以关闭...';
+	 	
+	 	
+	 	if(str.length == 0){
+             clearInterval(timer);
+         }
+	  var  aa = aa+str.substring(0,1);
+	  console.log(aa)
+	 	//document.getElementById("inerspan").innerHTML = str.substring(0);
+	 }
+	 
+	 
+	 
+	 
 	 
 </script>
 </body>
