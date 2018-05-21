@@ -25,20 +25,24 @@
    	.indexmheader h1,.indexmheader a{
    		color:#fff;
    	}
+   	.mui-toast-container {bottom: 50% !important;}
+   	.mui-bar {
+		 
+		    -webkit-box-shadow: none !important;
+		    box-shadow: none !important;
+		   
+		}
    </style>
 </head>
 <body>
-	<header class="mui-bar mui-bar-nav indexmheader">
-	    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
-	    <h1 class="mui-title">标题</h1>
-	</header>
+	
 	
 	<nav class="mui-bar mui-bar-tab foot-nav" >
-	    <a class="mui-tab-item mui-active">
+	    <a class="mui-tab-item mui-active" href="index.html">
 	        <span class="mui-icon mui-icon-home"></span>
 	        <span class="mui-tab-label span2">首页</span>
 	    </a>
-	    <a class="mui-tab-item">
+	    <a class="mui-tab-item" id="toastBtn">
 	        <span class="mui-icon  iconfont icon-yingjian"></span>
 	        <span class="mui-tab-label span2">智能硬件</span>
 	    </a>
@@ -58,12 +62,16 @@
 	      url:'index1.html',
 	      id:'index1.html',
 	      styles:{
-	        top:'44px',//mui标题栏默认高度为45px；
+	        top:'0',//mui标题栏默认高度为45px；
 	        bottom:'0px'//默认为0px，可不定义；
 	      }
 	    }]
 });
-//
+
+
+   document.getElementById("toastBtn").addEventListener('tap', function() {
+				mui.toast('功能正在开发中!');
+		});
  </script>
 
 </html>

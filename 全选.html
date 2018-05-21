@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>全选 </title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		
+		
+		<style>a
+		
+		a, input,button,textarea{margin:0;padding:0;border:none;background:none;font-size:14px;outline:none;
+	 -webkit-appearance: none;
+		border-radius: 0;
+	}
+	input{
+		width: 16px;
+		height: 16px;
+		
+		background: blue;
+	}
+		</style>
+	</head>
+      
+     	<div class="box">
+     		<input type="checkbox" />
+     		<input type="checkbox" />
+     		<input type="checkbox" />
+     		<input type="checkbox" />
+     		<input type="checkbox" />
+     	</div>
+      
+         <div class="box1">
+         	
+         	<input type="checkbox" />全选
+         
+         </div>
+      
+      
+      
+      
+	<body>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			
+			//  点击全选  全不选
+			
+			var btn  = document.getElementsByClassName("box1")[0].getElementsByTagName("input")[0];
+			var inps = document.getElementsByClassName("box")[0].getElementsByTagName("input");
+			
+			
+			var le = inps.length;
+
+			//  全选
+			btn.onclick = function(){
+				if(this.checked == true){	
+					for(var i=0; i<le ; i++){	
+						inps[i].checked = true; 
+						inps[i].style.background= "red";
+					}
+				this.style.background= "red";
+				
+				
+				}else{		
+					for(var j=0; j<le ; j++){
+						
+						inps[j].checked = false;
+						inps[j].style.background= "blue";
+					}
+				this.style.background= "blue";
+
+				}
+				
+				
+				
+			}
+			
+			//  点击单个    都选中 则 全选按钮  选中
+			
+			for(var k= 0; k<le; k++){
+				
+				//  循环每一个  加事件
+				inps[k].onclick = function(){
+					
+					this.style.background= "red";	
+
+					var  bol = true ;
+					for (var l=0 ;l<le ;l++){
+						bol = bol && inps[l].checked;
+						if(!bol){
+							break
+						}
+					}
+					
+					if(bol){
+						btn.checked = true;
+						btn.style.background= "red"
+					}
+					if(this.checked == false){
+						btn.checked = false;
+						this.style.background= "blue";	
+						btn.style.background= "blue"
+					}
+					
+				}
+				
+				
+				
+				
+			}
+			
+			
+			
+	
+		</script>
+	</body>
+
+</html>

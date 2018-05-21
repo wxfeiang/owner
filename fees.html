@@ -26,11 +26,18 @@
     		height: 0.90rem;
     		border-bottom: 1px solid #E5E5E5;
     	}
+    	.footer{
+    		bottom: 50px;
+    	}
     </style>
 </head>
 <body>
-	<div class="warp">
+	<header class="mui-bar mui-bar-nav indexmheader">
+	    <h1 class="mui-title">水费</h1>
+	</header>
 	
+	<div class="warp">
+		
 	<!-- first -->
 	     <h3 class="clearfix pub_title">
 	     	<a href="index.html" class="fl fla"></a>
@@ -96,8 +103,8 @@
 <script src="https://cdn.bootcss.com/jquery-weui/1.2.0/js/swiper.min.js"></script>
 <script src="https://cdn.bootcss.com/jquery-weui/1.2.0/js/city-picker.min.js"></script>
 <script>
-	　　　　　//给所有 .box input 元素添加 checked = ckAll 当前的状态；
-　　　　　　　//prop('checked',value) ,第一个值获取属性，第二个值：设置属性值。prop只有一个参数时，表示获取元素属性。
+　　　//给所有 .box input 元素添加 checked = ckAll 当前的状态；
+　　　//prop('checked',value) ,第一个值获取属性，第二个值：设置属性值。prop只有一个参数时，表示获取元素属性。
 　　　 $('#ckAll').click(function(){
 　　　　　　　　　　 $('.cheched').prop('checked',$(this).prop('checked'));
      });

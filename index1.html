@@ -48,11 +48,21 @@
     	.p-span0{
     		margin-top: 8px;
     	}
+    	#inerspan{    		
+    		
+    		width:4.rem;
+    	}
+    	.warp{
+    		margin-top: 45px;
+    	}
     	
     </style>
 
 </head>
 <body>
+	<header class="mui-bar mui-bar-nav indexmheader">
+	    <h1 class="mui-title">首页</h1>
+	</header>
 <div class="warp">
 		
 <!-- 轮播图 -->
@@ -122,7 +132,7 @@
   
   <div class="inform">
   	<span class="iconfont icon-laba p-span01"></span>
-  	<span id="inerspan"></span>
+  	<span id="inerspan" ></span>
     <span class="mui-icon mui-icon-closeempty fr p-span0"></span>
   </div>
 
@@ -153,7 +163,7 @@
 
   <div class="in-list">
      <!-- 图文列表   -->
-  	 <a href="index1.html" class="clearfix list-a">
+  	 <a href="index1.html" class="list-a">
   	 	<div class="a-titl">
 			 <h3>为什么总要你冬天多晒晒太阳？</h3>
   	 		<p>系统管理员<span>10分钟前</span></p>  	 		
@@ -163,7 +173,7 @@
         	<img src="images/swiper-1.jpg" alt="">
         </div>
   	 </a>
-     <a href="index1.html" class="clearfix list-a">
+     <a href="index1.html" class="list-a">
       <div class="a-titl">
        <h3>为什么总要你冬天多晒晒太阳？</h3>
         <p>系统管理员<span>10分钟前</span></p>        
@@ -173,7 +183,7 @@
           <img src="images/swiper-1.jpg" alt="">
         </div>
      </a>
-      <a href="index1.html" class="clearfix list-a">
+      <a href="index1.html" class="list-a">
       <div class="a-titl">
        <h3>为什么总要你冬天多晒晒太阳？</h3>
         <p>系统管理员<span>10分钟前</span></p>        
@@ -226,21 +236,25 @@
       });
 
 	 $(".p-span0").click(function(){	 	
-	 	$(".inform").hide(); 	
+	 	$(".inform").hide(); 
+	 	clearInterval(timer);
 	 }); 
-	//var timer = setInterval(auto,1000);
-	 
-	 function auto(){
-	 	 str='这里是通知公告区域，显示的是最新的通知，可以关闭...';
-	 	
-	 	
-	 	if(str.length == 0){
-             clearInterval(timer);
-         }
-	  var  aa = aa+str.substring(0,1);
-	  console.log(aa)
-	 	//document.getElementById("inerspan").innerHTML = str.substring(0);
-	 }
+	//  滚动通知广告
+	var meninfo = "  欢迎你能够来学习 这是恒昌的一段挂嘎嘎哦";  
+
+    function left() {  
+        var show = document.getElementById("inerspan");  
+        if (typeof show.textContent == "string") {  
+            show.textContent = meninfo.substring(0, meninfo.length);  
+        } else {  
+            show.innerText = meninfo.substring(0, meninfo.length);  
+        }  
+        meninfo = meninfo + meninfo.substring(0, 1);  
+        meninfo = meninfo.substring(1, meninfo.length);  
+    }  
+  
+  
+    var timer = setInterval(left, 500)   
 	 
 	 
 	 

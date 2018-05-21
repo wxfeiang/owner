@@ -1,0 +1,17 @@
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.62rem 0 0 0; }
+  .box a {
+    display: block;
+    width: 33.33%;
+    margin: 0 0 0.72rem 0;
+    text-align: center; }
+    .box a img {
+      height: 0.6rem;
+      margin: auto; }
+    .box a h3 {
+      font: 0.25rem/0.58rem "YaHei";
+      text-align: center; }
+
+/*# sourceMappingURL=livpay.css.map */

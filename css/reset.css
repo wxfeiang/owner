@@ -54,7 +54,7 @@
 		width:100%;
 		max-width: 750px;
 		min-width: 320px;
-		margin: 0 auto;
+		margin: 45px  auto 0;
 	
 
 	}
@@ -87,5 +87,6 @@
 	display: inline-block;
 	border-radius: 50%;
 	overflow: hidden;
-	vertical-align: top
+	vertical-align: top;
+	justify-content: space-between;
 }
