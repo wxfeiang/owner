@@ -5,20 +5,15 @@
 	<title>选择项目</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0"  maximum-scale="1" minimum-scale="1"/>
     <!-- jq_weui -->
-     <link rel="stylesheet" href="public/juweiui/lib/weui.min.css"/>
-     <link rel="stylesheet" href="public/juweiui/css/jquery-weui.min.css"/>
+   <link href="css/mui.min.css" rel="stylesheet"/>
     <link href="css/reset.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="css/public.css">
-
     <script src="js/remScale.js"></script>
 
 
     <style>
     	
-    	.sp-top{
-    		margin-top: 0;
-
-    	}
+    	
     	.sp-top a{
     		height: 0.88rem;
     		border-bottom: 1px solid #e5e5e5;
@@ -26,27 +21,28 @@
     </style>
 </head>
 <body>
+	<header class="mui-bar mui-bar-nav indexmheader">
+	    <h1 class="mui-title">项目</h1>
+	</header>
 	<div class="warp">
 		
-	   <div class="weui-cells  sp-top">
-		  <a class="weui-cell weui-cell_access" href="javascript:;">
-		    <div class="weui-cell__bd">
-		      <p>联创大厦</p>
-		    </div>
-		    <div class="weui-cell__ft">
-		    </div>
-		  </a>
-		  <a class="weui-cell weui-cell_access" href="javascript:;">
-		    <div class="weui-cell__bd">
-		      <p>天庆花园</p>
-		    </div>
-		    <div class="weui-cell__ft">
-		    </div>
-		  </a>
-	</div>
+	 
 
 
-
+		<ul class="mui-table-view">
+			<li class="mui-table-view-cell sp-top">
+				<a class="mui-navigate-right">
+					联创大厦
+				</a>
+			</li>
+			<li class="mui-table-view-cell">
+				<a class="mui-navigate-right">
+					高新大厦
+					
+				</a>
+			</li>
+			
+		</ul>
 
 
 
@@ -63,12 +59,7 @@
 
 <!-- body 最后 -->
 <script src="public/juweiui/lib/jquery-2.1.4.js"></script>
-<script src="public/juweiui/lib/fastclick.js"></script>
 
-<script src="public/juweiui/js/jquery-weui.min.js"></script>
 
-<!-- 如果使用了某些拓展插件还需要额外的JS -->
-<script src="https://cdn.bootcss.com/jquery-weui/1.2.0/js/swiper.min.js"></script>
-<script src="https://cdn.bootcss.com/jquery-weui/1.2.0/js/city-picker.min.js"></script>
 </body>
 </html>

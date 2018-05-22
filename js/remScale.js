@@ -10,15 +10,15 @@ window.onresize = window.onload = function(){
 		
 		font-size = 320/720 * 100
 	 <!--<script>
-	 (function () {
-	 var html = document.documentElement;
-	 var hwidth = html.getBoundingClientRect().width;
-	 if( hwidth>750){
-	 hwidth = 750;
-	 }    //根据设计稿限定
-	 console.log( hwidth);
-	 html.style.fontSize = hwidth/7.5 + "px";
-	 })()// 自执行函数  获取设备宽
+		 (function () {
+			 var html = document.documentElement;
+			 var hwidth = html.getBoundingClientRect().width;
+			 if( hwidth>750){
+			 hwidth = 750;
+			 }    //根据设计稿限定
+			 console.log( hwidth);
+			 html.style.fontSize = hwidth/7.5 + "px";
+		 })()// 自执行函数  获取设备宽
 	 </script>-->
 		
 	*/

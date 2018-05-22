@@ -16,12 +16,30 @@
 	},
 	"index1.html": {
 		"refer": [
-			"community.html"
+			"community.html",
+			"fees.html",
+			"seporject.html",
+			"payment.html"
 		]
 	},
 	"postmsg.html": {
 		"refer": [
 			"index.html"
+		]
+	},
+	"fees.html": {
+		"refer": [
+			"index.html"
+		]
+	},
+	"paysucss.html": {
+		"refer": [
+			"index.html"
+		]
+	},
+	"payment.html": {
+		"refer": [
+			"paysucss.html"
 		]
 	}
 }

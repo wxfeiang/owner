@@ -147,7 +147,10 @@
 			"index1.html": {
 				"resources": [],
 				"refer": [
-					"community.html"
+					"community.html",
+					"fees.html",
+					"seporject.html",
+					"payment.html"
 				],
 				"priority": 0
 			},
@@ -155,6 +158,27 @@
 				"resources": [],
 				"refer": [
 					"index.html"
+				],
+				"priority": 0
+			},
+			"fees.html": {
+				"resources": [],
+				"refer": [
+					"index.html"
+				],
+				"priority": 0
+			},
+			"paysucss.html": {
+				"resources": [],
+				"refer": [
+					"index.html"
+				],
+				"priority": 0
+			},
+			"payment.html": {
+				"resources": [],
+				"refer": [
+					"paysucss.html"
 				],
 				"priority": 0
 			}
@@ -169,11 +193,9 @@
 				"css/index1.css",
 				"public/juweiui/lib/zepto.js",
 				"css/public.css",
-				"payment.html",
 				"images/index06.png",
 				"public/juweiui/js/jquery-weui.min.js",
 				"images/live1.png",
-				"seporject.html",
 				"css/community.sass",
 				"images/pub_06.jpg",
 				"css/postmsg.sass",
@@ -231,12 +253,10 @@
 				"images/stat1.png",
 				"public/juweiui/js/jquery-weui.js",
 				"images/index05.png",
-				"paysucss.html",
 				"css/mui.min.css",
 				"images/witer.jpg",
 				"css/paysuss.css",
 				"images/live2.png",
-				"fees.html",
 				"css/reset.css"
 			]
 		}
